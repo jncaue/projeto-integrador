@@ -130,6 +130,9 @@ input, select, textarea {
 
 	p {
 		line-height: 1.8em;
+
+		/* adição fora do modelo pronto */
+		text-align: justify;
 	}
 
 	strong {
