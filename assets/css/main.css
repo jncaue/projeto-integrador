@@ -88,7 +88,7 @@ input, select, textarea {
 	body {
 		font-size: 13.5pt;
 		font-family: sans-serif;
-		background-color: #e3e9dc;
+		background-color: #748d7d;
 		font-family: 'Ubuntu Condensed', sans-serif;
 		color: #878e83;
 		letter-spacing: -1px;
@@ -146,6 +146,7 @@ input, select, textarea {
 	img.left {
 		float: left;
 		margin: 2px 1.25em 0 0;
+		border-radius: 100%;
 	}
 
 	img.top {
@@ -1491,30 +1492,29 @@ input, select, textarea {
 		}
 
 	.button {
-		/* background-image: -moz-linear-gradient(top, #008dad, #007b9d);
-		background-image: -webkit-linear-gradient(top, #008dad, #007b9d);
-		background-image: -ms-linear-gradient(top, #008dad, #007b9d);
-		background-image: linear-gradient(top, #008dad, #007b9d); */
- 
+		background-image: -moz-linear-gradient(top, #849368, #77855d);
+		background-image: -webkit-linear-gradient(top, #849368, #77855d);
+		background-image: -ms-linear-gradient(top, #849368, #77855d);
+		background-image: linear-gradient(top, #849368, #77855d);
+		background-color: #48533B;
 		display: inline-block;
 		padding: 15px 25px 15px 25px;
-		/* background-color: #007b9d; */
 		border-radius: 10px;
 		text-transform: lowercase;
 		text-decoration: none;
 		color: #fff;
 		font-size: 1.2em;
 		letter-spacing: -1px;
-		border: solid 1px #006e8b;
-		box-shadow: inset 0px 0px 0px 1px #18a8c8;
+		border: solid 1px #f3f3f3;
+		box-shadow: inset 0px 0px 0px 1px #314034;
 	}
 
 		.button:hover {
-			/* background-image: -moz-linear-gradient(top, #1b9fbe, #118eb1);
-			background-image: -webkit-linear-gradient(top, #1b9fbe, #118eb1);
-			background-image: -ms-linear-gradient(top, #1b9fbe, #118eb1);
-			background-image: linear-gradient(top, #1b9fbe, #118eb1);
-			background-color: #118eb1; */
+		background-image: -moz-linear-gradient(top, #849368, #77855d);
+		background-image: -webkit-linear-gradient(top, #849368, #77855d);
+		background-image: -ms-linear-gradient(top, #849368, #77855d);
+		background-image: linear-gradient(top, #849368, #77855d);
+		background-color: #48533B;;
 			box-shadow: inset 0px 0px 0px 1px #3ecceb;
 		}
 
@@ -1525,14 +1525,15 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, #849368, #77855d);
 		background-image: -ms-linear-gradient(top, #849368, #77855d);
 		background-image: linear-gradient(top, #849368, #77855d);
-		background-color: #007294;
+		background-color: #48533B;
 	}
 
 	#header {
-		/* background-image: -moz-linear-gradient(top, #008ead, #007b9d);
-		background-image: -webkit-linear-gradient(top, #008ead, #007b9d);
-		background-image: -ms-linear-gradient(top, #008ead, #007b9d);
-		background-image: linear-gradient(top, #008ead, #007b9d); */
+		background-image: -moz-linear-gradient(top, #525b41, #77855d);
+		background-image: -webkit-linear-gradient(top, #525b41, #77855d);
+		background-image: -ms-linear-gradient(top, #525b41, #77855d);
+		background-image: linear-gradient(top, #525b41, #77855d);
+		background-color: #48533B;
 		-moz-box-sizing: content-box;
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
