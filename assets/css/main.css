@@ -2142,9 +2142,19 @@ ul.link-list li:first-child {
 
 /* alterações no modelo pronto */
 
+/* alterações gerais */
+
 .line {
 	background-color: #283121;
 }
+
+.icon-48 {
+	width: 1.5rem;
+	height: auto;
+	padding-right: 0.25rem;
+}
+
+/* alterações do gerais e index */
 
 
 .ul-main {
@@ -2188,10 +2198,6 @@ ul.link-list li:first-child {
 	word-spacing: -0.225rem;
 }
 
-.social-col {
-	
-}
-
 .social-ul {
 	/* border: 1px solid red; */
 	display: flex;
@@ -2214,4 +2220,12 @@ ul.link-list li:first-child {
 .social-h2 {
 	color: #f3f3f3;
 	font-size: 1.5rem;
+}
+
+/* alterações no btn-1 */
+
+.middle-content h2{
+	font-size: 4rem;
+	padding-bottom: 0;
+	margin-bottom: 0.5rem;
 }
