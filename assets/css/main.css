@@ -246,6 +246,7 @@ img.left {
 
 img.top {
 	margin: 4px 0 2.25em 0;
+	width: 100%;
 }
 
 ul {
